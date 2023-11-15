@@ -1,12 +1,13 @@
-import { Product } from "./components/Product"; 
-import { products } from "./data/data";
+import { Navigation } from "./components/Navigation";
+import { Textarea } from "./components/Textarea";
 function App() {
   
   return (
-    <div className="container mx-auto max-w-2xl pt-5">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <Product product={products[0]}/>
-      <Product product={products[1]}/>
+    <div className="font-[Poppins]">
+      <div className="bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee] h-screen">
+          <Navigation />
+          <Textarea />
+      </div>
     </div>
   );
 }
