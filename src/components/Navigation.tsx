@@ -6,10 +6,13 @@ export function Navigation() {
           <a href="/">
           <img className="w-16" src="img/language.png" alt="" />
           </a>
-            <a className="text-xl ml-8 relative after:bg-black after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer" href="/">
+            <a className="text-xl ml-8 relative hover:scale-110 duration-300 after:bg-black after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer" href="/">
               Translatee
             </a>
-            <a className="text-xl ml-8 relative after:bg-black after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer" href="/">
+            <a className="text-xl ml-8 relative hover:scale-110 duration-300 after:bg-black after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer" href="/">
+              Dictionary
+            </a>
+            <a className="text-xl ml-8 relative hover:scale-110 duration-300 after:bg-black after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer" href="/">
               About me
             </a>
           </div>
