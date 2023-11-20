@@ -1,3 +1,4 @@
+import { Definition } from "./components/Definition";
 import { Navigation } from "./components/Navigation";
 import { Textarea } from "./components/Textarea";
 import { Typewriter } from "./components/Typewriter";
@@ -9,6 +10,7 @@ function App() {
           <Navigation />
           <Typewriter />
           <Textarea />
+          <Definition />
       </div>
     </div>
   );
